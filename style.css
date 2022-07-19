@@ -1,10 +1,10 @@
 @font-face {
     font-family: "delius";
-    src: url("/fonts/Delius_Unicase/DeliusUnicase-Regular.ttf");
+    src: url("./fonts/Delius_Unicase/DeliusUnicase-Regular.ttf");
 }
 
 body{
-    background-image: url("/images/bbq_background.jpg");
+    background-image: url("./images/bbq_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;   
@@ -38,7 +38,7 @@ h1{
     font-size: 28px;
     color: lightgoldenrodyellow;
     text-shadow: black 2px 2px 2px;
-    font-family: "delius";
+    font-family: "delius", Arial, Helvetica, sans-serif;
 }
 
 input{
